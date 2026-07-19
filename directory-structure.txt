@@ -1,0 +1,2316 @@
+D:.
+|   .flutter-plugins-dependencies
+|   .gitignore
+|   .metadata
+|   analysis_options.yaml
+|   brandie_smart_posts.iml
+|   directory-structure.txt
+|   pubspec.lock
+|   pubspec.yaml
+|   README.md
+|   
++---.dart_tool
+|   |   package_config.json
+|   |   package_config_subset
+|   |   package_graph.json
+|   |   version
+|   |   
+|   +---dartpad
+|   |       web_plugin_registrant.dart
+|   |       
+|   +---extension_discovery
+|   |       vs_code.json
+|   |       
+|   +---flutter_build
+|   |   |   dart_plugin_registrant.dart
+|   |   |   
+|   |   \---1b27bd2a3240fd07f4107c6f695a9e4c
+|   |           .filecache
+|   |           app.dill
+|   |           dart_build.d
+|   |           dart_build.stamp
+|   |           dart_build_result.json
+|   |           debug_android_application.stamp
+|   |           flutter_assets.d
+|   |           gen_dart_plugin_registrant.stamp
+|   |           gen_localizations.stamp
+|   |           install_code_assets.d
+|   |           install_code_assets.stamp
+|   |           kernel_snapshot_program.d
+|   |           kernel_snapshot_program.stamp
+|   |           native_assets.json
+|   |           outputs.json
+|   |           
+|   \---pub
+|       \---bin
+|           \---flutter_launcher_icons
+|                   flutter_launcher_icons.dart-3.8.1.snapshot
+|                   
++---.idea
+|   |   modules.xml
+|   |   workspace.xml
+|   |   
+|   +---libraries
+|   |       Dart_SDK.xml
+|   |       KotlinJavaRuntime.xml
+|   |       
+|   \---runConfigurations
+|           main_dart.xml
+|           
++---android
+|   |   .gitignore
+|   |   brandie_smart_posts_android.iml
+|   |   build.gradle.kts
+|   |   gradle.properties
+|   |   gradlew
+|   |   gradlew.bat
+|   |   local.properties
+|   |   settings.gradle.kts
+|   |   
+|   +---.gradle
+|   |   |   file-system.probe
+|   |   |   
+|   |   +---8.12
+|   |   |   |   gc.properties
+|   |   |   |   
+|   |   |   +---checksums
+|   |   |   |       checksums.lock
+|   |   |   |       
+|   |   |   +---executionHistory
+|   |   |   |       executionHistory.bin
+|   |   |   |       executionHistory.lock
+|   |   |   |       
+|   |   |   +---expanded
+|   |   |   +---fileChanges
+|   |   |   |       last-build.bin
+|   |   |   |       
+|   |   |   +---fileHashes
+|   |   |   |       fileHashes.bin
+|   |   |   |       fileHashes.lock
+|   |   |   |       resourceHashesCache.bin
+|   |   |   |       
+|   |   |   \---vcsMetadata
+|   |   +---buildOutputCleanup
+|   |   |       buildOutputCleanup.lock
+|   |   |       cache.properties
+|   |   |       outputFiles.bin
+|   |   |       
+|   |   +---noVersion
+|   |   |       buildLogic.lock
+|   |   |       
+|   |   \---vcs-1
+|   |           gc.properties
+|   |           
+|   +---.kotlin
+|   |   \---sessions
+|   +---app
+|   |   |   build.gradle.kts
+|   |   |   
+|   |   \---src
+|   |       +---debug
+|   |       |       AndroidManifest.xml
+|   |       |       
+|   |       +---main
+|   |       |   |   AndroidManifest.xml
+|   |       |   |   
+|   |       |   +---java
+|   |       |   |   \---io
+|   |       |   |       \---flutter
+|   |       |   |           \---plugins
+|   |       |   |                   GeneratedPluginRegistrant.java
+|   |       |   |                   
+|   |       |   +---kotlin
+|   |       |   |   \---com
+|   |       |   |       \---example
+|   |       |   |           \---brandie_smart_posts
+|   |       |   |                   MainActivity.kt
+|   |       |   |                   
+|   |       |   \---res
+|   |       |       +---drawable
+|   |       |       |       launch_background.xml
+|   |       |       |       
+|   |       |       +---drawable-v21
+|   |       |       |       launch_background.xml
+|   |       |       |       
+|   |       |       +---mipmap-hdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---mipmap-mdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---mipmap-xhdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---mipmap-xxhdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---mipmap-xxxhdpi
+|   |       |       |       ic_launcher.png
+|   |       |       |       
+|   |       |       +---values
+|   |       |       |       styles.xml
+|   |       |       |       
+|   |       |       \---values-night
+|   |       |               styles.xml
+|   |       |               
+|   |       \---profile
+|   |               AndroidManifest.xml
+|   |               
+|   \---gradle
+|       \---wrapper
+|               gradle-wrapper.jar
+|               gradle-wrapper.properties
+|               
++---assets
+|   |   app_icon.png
+|   |   
+|   +---icons
+|   |       ai_icon_small.png
+|   |       edit_icon_small.png
+|   |       home_icon.png
+|   |       message_icon.png
+|   |       music_icon_small.png
+|   |       profile_icon.png
+|   |       rocket_icon.png
+|   |       search_icon.png
+|   |       search_icon.svg
+|   |       trending_up_icon_small.png
+|   |       
+|   +---images
+|   |       img_1.jpg
+|   |       img_2.jpg
+|   |       img_3.jpg
+|   |       profile.png
+|   |       
+|   \---logo
+|       |   assistant_logo.png
+|       |   camera_logo.png
+|       |   company_logo.png
+|       |   lipstick_image.png
+|       |   
+|       \---social
+|               facebook.png
+|               facebook_story.png
+|               instagram.png
+|               instagram_story.png
+|               mail.png
+|               messenger.png
+|               other_social.png
+|               telegram.png
+|               tiktok.png
+|               whatsapp.png
+|               whatsapp_business.png
+|               
++---build
+|   |   d7b177071baaf4ee18da1044770cbdc7.cache.dill.track.dill
+|   |   
+|   +---.cxx
+|   |   \---Debug
+|   |       +---5fh3voj4
+|   |       |   |   hash_key.txt
+|   |       |   |   
+|   |       |   +---arm64-v8a
+|   |       |   |   |   additional_project_files.txt
+|   |       |   |   |   android_gradle_build.json
+|   |       |   |   |   android_gradle_build_mini.json
+|   |       |   |   |   build.ninja
+|   |       |   |   |   build_file_index.txt
+|   |       |   |   |   CMakeCache.txt
+|   |       |   |   |   cmake_install.cmake
+|   |       |   |   |   configure_fingerprint.bin
+|   |       |   |   |   metadata_generation_command.txt
+|   |       |   |   |   prefab_config.json
+|   |       |   |   |   symbol_folder_index.txt
+|   |       |   |   |   
+|   |       |   |   +---.cmake
+|   |       |   |   |   \---api
+|   |       |   |   |       \---v1
+|   |       |   |   |           +---query
+|   |       |   |   |           |   \---client-agp
+|   |       |   |   |           |           cache-v2
+|   |       |   |   |           |           cmakeFiles-v1
+|   |       |   |   |           |           codemodel-v2
+|   |       |   |   |           |           
+|   |       |   |   |           \---reply
+|   |       |   |   |                   cache-v2-8bdd3d1108c713f398f8.json
+|   |       |   |   |                   cmakeFiles-v1-9081a04221c82313b27b.json
+|   |       |   |   |                   codemodel-v2-dbd712511d3cb47d4061.json
+|   |       |   |   |                   directory-.-Debug-d0094a50bb2071803777.json
+|   |       |   |   |                   index-2026-07-19T06-31-11-0281.json
+|   |       |   |   |                   
+|   |       |   |   \---CMakeFiles
+|   |       |   |       |   cmake.check_cache
+|   |       |   |       |   CMakeOutput.log
+|   |       |   |       |   rules.ninja
+|   |       |   |       |   TargetDirectories.txt
+|   |       |   |       |   
+|   |       |   |       +---3.22.1-g37088a8-dirty
+|   |       |   |       |   |   CMakeCCompiler.cmake
+|   |       |   |       |   |   CMakeCXXCompiler.cmake
+|   |       |   |       |   |   CMakeDetermineCompilerABI_C.bin
+|   |       |   |       |   |   CMakeDetermineCompilerABI_CXX.bin
+|   |       |   |       |   |   CMakeSystem.cmake
+|   |       |   |       |   |   
+|   |       |   |       |   +---CompilerIdC
+|   |       |   |       |   |   |   CMakeCCompilerId.c
+|   |       |   |       |   |   |   CMakeCCompilerId.o
+|   |       |   |       |   |   |   
+|   |       |   |       |   |   \---tmp
+|   |       |   |       |   \---CompilerIdCXX
+|   |       |   |       |       |   CMakeCXXCompilerId.cpp
+|   |       |   |       |       |   CMakeCXXCompilerId.o
+|   |       |   |       |       |   
+|   |       |   |       |       \---tmp
+|   |       |   |       \---CMakeTmp
+|   |       |   +---armeabi-v7a
+|   |       |   |   |   additional_project_files.txt
+|   |       |   |   |   android_gradle_build.json
+|   |       |   |   |   android_gradle_build_mini.json
+|   |       |   |   |   build.ninja
+|   |       |   |   |   build_file_index.txt
+|   |       |   |   |   CMakeCache.txt
+|   |       |   |   |   cmake_install.cmake
+|   |       |   |   |   configure_fingerprint.bin
+|   |       |   |   |   metadata_generation_command.txt
+|   |       |   |   |   prefab_config.json
+|   |       |   |   |   symbol_folder_index.txt
+|   |       |   |   |   
+|   |       |   |   +---.cmake
+|   |       |   |   |   \---api
+|   |       |   |   |       \---v1
+|   |       |   |   |           +---query
+|   |       |   |   |           |   \---client-agp
+|   |       |   |   |           |           cache-v2
+|   |       |   |   |           |           cmakeFiles-v1
+|   |       |   |   |           |           codemodel-v2
+|   |       |   |   |           |           
+|   |       |   |   |           \---reply
+|   |       |   |   |                   cache-v2-05faa6a2985eaa82f20d.json
+|   |       |   |   |                   cmakeFiles-v1-6d6b072a34a307037398.json
+|   |       |   |   |                   codemodel-v2-bb199a44daab1fc6e202.json
+|   |       |   |   |                   directory-.-Debug-d0094a50bb2071803777.json
+|   |       |   |   |                   index-2026-07-19T06-31-12-0497.json
+|   |       |   |   |                   
+|   |       |   |   \---CMakeFiles
+|   |       |   |       |   cmake.check_cache
+|   |       |   |       |   CMakeOutput.log
+|   |       |   |       |   rules.ninja
+|   |       |   |       |   TargetDirectories.txt
+|   |       |   |       |   
+|   |       |   |       +---3.22.1-g37088a8-dirty
+|   |       |   |       |   |   CMakeCCompiler.cmake
+|   |       |   |       |   |   CMakeCXXCompiler.cmake
+|   |       |   |       |   |   CMakeDetermineCompilerABI_C.bin
+|   |       |   |       |   |   CMakeDetermineCompilerABI_CXX.bin
+|   |       |   |       |   |   CMakeSystem.cmake
+|   |       |   |       |   |   
+|   |       |   |       |   +---CompilerIdC
+|   |       |   |       |   |   |   CMakeCCompilerId.c
+|   |       |   |       |   |   |   CMakeCCompilerId.o
+|   |       |   |       |   |   |   
+|   |       |   |       |   |   \---tmp
+|   |       |   |       |   \---CompilerIdCXX
+|   |       |   |       |       |   CMakeCXXCompilerId.cpp
+|   |       |   |       |       |   CMakeCXXCompilerId.o
+|   |       |   |       |       |   
+|   |       |   |       |       \---tmp
+|   |       |   |       \---CMakeTmp
+|   |       |   +---x86
+|   |       |   |   |   additional_project_files.txt
+|   |       |   |   |   android_gradle_build.json
+|   |       |   |   |   android_gradle_build_mini.json
+|   |       |   |   |   build.ninja
+|   |       |   |   |   build_file_index.txt
+|   |       |   |   |   CMakeCache.txt
+|   |       |   |   |   cmake_install.cmake
+|   |       |   |   |   configure_fingerprint.bin
+|   |       |   |   |   metadata_generation_command.txt
+|   |       |   |   |   prefab_config.json
+|   |       |   |   |   symbol_folder_index.txt
+|   |       |   |   |   
+|   |       |   |   +---.cmake
+|   |       |   |   |   \---api
+|   |       |   |   |       \---v1
+|   |       |   |   |           +---query
+|   |       |   |   |           |   \---client-agp
+|   |       |   |   |           |           cache-v2
+|   |       |   |   |           |           cmakeFiles-v1
+|   |       |   |   |           |           codemodel-v2
+|   |       |   |   |           |           
+|   |       |   |   |           \---reply
+|   |       |   |   |                   cache-v2-9b89f49cc79c39d52092.json
+|   |       |   |   |                   cmakeFiles-v1-a90e5db75753b0db19fa.json
+|   |       |   |   |                   codemodel-v2-1d3bb223a3d3f03d9b81.json
+|   |       |   |   |                   directory-.-Debug-d0094a50bb2071803777.json
+|   |       |   |   |                   index-2026-07-19T06-31-13-0723.json
+|   |       |   |   |                   
+|   |       |   |   \---CMakeFiles
+|   |       |   |       |   cmake.check_cache
+|   |       |   |       |   CMakeOutput.log
+|   |       |   |       |   rules.ninja
+|   |       |   |       |   TargetDirectories.txt
+|   |       |   |       |   
+|   |       |   |       +---3.22.1-g37088a8-dirty
+|   |       |   |       |   |   CMakeCCompiler.cmake
+|   |       |   |       |   |   CMakeCXXCompiler.cmake
+|   |       |   |       |   |   CMakeDetermineCompilerABI_C.bin
+|   |       |   |       |   |   CMakeDetermineCompilerABI_CXX.bin
+|   |       |   |       |   |   CMakeSystem.cmake
+|   |       |   |       |   |   
+|   |       |   |       |   +---CompilerIdC
+|   |       |   |       |   |   |   CMakeCCompilerId.c
+|   |       |   |       |   |   |   CMakeCCompilerId.o
+|   |       |   |       |   |   |   
+|   |       |   |       |   |   \---tmp
+|   |       |   |       |   \---CompilerIdCXX
+|   |       |   |       |       |   CMakeCXXCompilerId.cpp
+|   |       |   |       |       |   CMakeCXXCompilerId.o
+|   |       |   |       |       |   
+|   |       |   |       |       \---tmp
+|   |       |   |       \---CMakeTmp
+|   |       |   \---x86_64
+|   |       |       |   additional_project_files.txt
+|   |       |       |   android_gradle_build.json
+|   |       |       |   android_gradle_build_mini.json
+|   |       |       |   build.ninja
+|   |       |       |   build_file_index.txt
+|   |       |       |   CMakeCache.txt
+|   |       |       |   cmake_install.cmake
+|   |       |       |   configure_fingerprint.bin
+|   |       |       |   metadata_generation_command.txt
+|   |       |       |   prefab_config.json
+|   |       |       |   symbol_folder_index.txt
+|   |       |       |   
+|   |       |       +---.cmake
+|   |       |       |   \---api
+|   |       |       |       \---v1
+|   |       |       |           +---query
+|   |       |       |           |   \---client-agp
+|   |       |       |           |           cache-v2
+|   |       |       |           |           cmakeFiles-v1
+|   |       |       |           |           codemodel-v2
+|   |       |       |           |           
+|   |       |       |           \---reply
+|   |       |       |                   cache-v2-7daf65f239c5ea6753b1.json
+|   |       |       |                   cmakeFiles-v1-48724babe030acad7eab.json
+|   |       |       |                   codemodel-v2-63fc71d43f2f97ec023e.json
+|   |       |       |                   directory-.-Debug-d0094a50bb2071803777.json
+|   |       |       |                   index-2026-07-19T06-31-14-0880.json
+|   |       |       |                   
+|   |       |       \---CMakeFiles
+|   |       |           |   cmake.check_cache
+|   |       |           |   CMakeOutput.log
+|   |       |           |   rules.ninja
+|   |       |           |   TargetDirectories.txt
+|   |       |           |   
+|   |       |           +---3.22.1-g37088a8-dirty
+|   |       |           |   |   CMakeCCompiler.cmake
+|   |       |           |   |   CMakeCXXCompiler.cmake
+|   |       |           |   |   CMakeDetermineCompilerABI_C.bin
+|   |       |           |   |   CMakeDetermineCompilerABI_CXX.bin
+|   |       |           |   |   CMakeSystem.cmake
+|   |       |           |   |   
+|   |       |           |   +---CompilerIdC
+|   |       |           |   |   |   CMakeCCompilerId.c
+|   |       |           |   |   |   CMakeCCompilerId.o
+|   |       |           |   |   |   
+|   |       |           |   |   \---tmp
+|   |       |           |   \---CompilerIdCXX
+|   |       |           |       |   CMakeCXXCompilerId.cpp
+|   |       |           |       |   CMakeCXXCompilerId.o
+|   |       |           |       |   
+|   |       |           |       \---tmp
+|   |       |           \---CMakeTmp
+|   |       \---73s332c3
+|   |           |   hash_key.txt
+|   |           |   
+|   |           +---arm64-v8a
+|   |           |   |   additional_project_files.txt
+|   |           |   |   android_gradle_build.json
+|   |           |   |   android_gradle_build_mini.json
+|   |           |   |   build.ninja
+|   |           |   |   build_file_index.txt
+|   |           |   |   CMakeCache.txt
+|   |           |   |   cmake_install.cmake
+|   |           |   |   configure_fingerprint.bin
+|   |           |   |   metadata_generation_command.txt
+|   |           |   |   prefab_config.json
+|   |           |   |   symbol_folder_index.txt
+|   |           |   |   
+|   |           |   +---.cmake
+|   |           |   |   \---api
+|   |           |   |       \---v1
+|   |           |   |           +---query
+|   |           |   |           |   \---client-agp
+|   |           |   |           |           cache-v2
+|   |           |   |           |           cmakeFiles-v1
+|   |           |   |           |           codemodel-v2
+|   |           |   |           |           
+|   |           |   |           \---reply
+|   |           |   |                   cache-v2-aca6828e311e9972f703.json
+|   |           |   |                   cmakeFiles-v1-188b9bf2c2466ade473e.json
+|   |           |   |                   codemodel-v2-a9991413bee633a62d67.json
+|   |           |   |                   directory-.-Debug-d0094a50bb2071803777.json
+|   |           |   |                   index-2026-07-18T12-55-42-0908.json
+|   |           |   |                   
+|   |           |   \---CMakeFiles
+|   |           |       |   cmake.check_cache
+|   |           |       |   CMakeOutput.log
+|   |           |       |   rules.ninja
+|   |           |       |   TargetDirectories.txt
+|   |           |       |   
+|   |           |       +---3.22.1-g37088a8-dirty
+|   |           |       |   |   CMakeCCompiler.cmake
+|   |           |       |   |   CMakeCXXCompiler.cmake
+|   |           |       |   |   CMakeDetermineCompilerABI_C.bin
+|   |           |       |   |   CMakeDetermineCompilerABI_CXX.bin
+|   |           |       |   |   CMakeSystem.cmake
+|   |           |       |   |   
+|   |           |       |   +---CompilerIdC
+|   |           |       |   |   |   CMakeCCompilerId.c
+|   |           |       |   |   |   CMakeCCompilerId.o
+|   |           |       |   |   |   
+|   |           |       |   |   \---tmp
+|   |           |       |   \---CompilerIdCXX
+|   |           |       |       |   CMakeCXXCompilerId.cpp
+|   |           |       |       |   CMakeCXXCompilerId.o
+|   |           |       |       |   
+|   |           |       |       \---tmp
+|   |           |       \---CMakeTmp
+|   |           +---armeabi-v7a
+|   |           |   |   additional_project_files.txt
+|   |           |   |   android_gradle_build.json
+|   |           |   |   android_gradle_build_mini.json
+|   |           |   |   build.ninja
+|   |           |   |   build_file_index.txt
+|   |           |   |   CMakeCache.txt
+|   |           |   |   cmake_install.cmake
+|   |           |   |   configure_fingerprint.bin
+|   |           |   |   metadata_generation_command.txt
+|   |           |   |   prefab_config.json
+|   |           |   |   symbol_folder_index.txt
+|   |           |   |   
+|   |           |   +---.cmake
+|   |           |   |   \---api
+|   |           |   |       \---v1
+|   |           |   |           +---query
+|   |           |   |           |   \---client-agp
+|   |           |   |           |           cache-v2
+|   |           |   |           |           cmakeFiles-v1
+|   |           |   |           |           codemodel-v2
+|   |           |   |           |           
+|   |           |   |           \---reply
+|   |           |   |                   cache-v2-03b7aeb6f673674a9bd2.json
+|   |           |   |                   cmakeFiles-v1-5b3ec98b0c0e941c1701.json
+|   |           |   |                   codemodel-v2-05991b1d9ac67e2a7c91.json
+|   |           |   |                   directory-.-Debug-d0094a50bb2071803777.json
+|   |           |   |                   index-2026-07-18T12-55-54-0757.json
+|   |           |   |                   
+|   |           |   \---CMakeFiles
+|   |           |       |   cmake.check_cache
+|   |           |       |   CMakeOutput.log
+|   |           |       |   rules.ninja
+|   |           |       |   TargetDirectories.txt
+|   |           |       |   
+|   |           |       +---3.22.1-g37088a8-dirty
+|   |           |       |   |   CMakeCCompiler.cmake
+|   |           |       |   |   CMakeCXXCompiler.cmake
+|   |           |       |   |   CMakeDetermineCompilerABI_C.bin
+|   |           |       |   |   CMakeDetermineCompilerABI_CXX.bin
+|   |           |       |   |   CMakeSystem.cmake
+|   |           |       |   |   
+|   |           |       |   +---CompilerIdC
+|   |           |       |   |   |   CMakeCCompilerId.c
+|   |           |       |   |   |   CMakeCCompilerId.o
+|   |           |       |   |   |   
+|   |           |       |   |   \---tmp
+|   |           |       |   \---CompilerIdCXX
+|   |           |       |       |   CMakeCXXCompilerId.cpp
+|   |           |       |       |   CMakeCXXCompilerId.o
+|   |           |       |       |   
+|   |           |       |       \---tmp
+|   |           |       \---CMakeTmp
+|   |           +---x86
+|   |           |   |   additional_project_files.txt
+|   |           |   |   android_gradle_build.json
+|   |           |   |   android_gradle_build_mini.json
+|   |           |   |   build.ninja
+|   |           |   |   build_file_index.txt
+|   |           |   |   CMakeCache.txt
+|   |           |   |   cmake_install.cmake
+|   |           |   |   configure_fingerprint.bin
+|   |           |   |   metadata_generation_command.txt
+|   |           |   |   prefab_config.json
+|   |           |   |   symbol_folder_index.txt
+|   |           |   |   
+|   |           |   +---.cmake
+|   |           |   |   \---api
+|   |           |   |       \---v1
+|   |           |   |           +---query
+|   |           |   |           |   \---client-agp
+|   |           |   |           |           cache-v2
+|   |           |   |           |           cmakeFiles-v1
+|   |           |   |           |           codemodel-v2
+|   |           |   |           |           
+|   |           |   |           \---reply
+|   |           |   |                   cache-v2-2355980e8f6ed0346a97.json
+|   |           |   |                   cmakeFiles-v1-24c25a8d5279c83065b4.json
+|   |           |   |                   codemodel-v2-fc5ac81478b2b32a5ca3.json
+|   |           |   |                   directory-.-Debug-d0094a50bb2071803777.json
+|   |           |   |                   index-2026-07-18T12-55-56-0063.json
+|   |           |   |                   
+|   |           |   \---CMakeFiles
+|   |           |       |   cmake.check_cache
+|   |           |       |   CMakeOutput.log
+|   |           |       |   rules.ninja
+|   |           |       |   TargetDirectories.txt
+|   |           |       |   
+|   |           |       +---3.22.1-g37088a8-dirty
+|   |           |       |   |   CMakeCCompiler.cmake
+|   |           |       |   |   CMakeCXXCompiler.cmake
+|   |           |       |   |   CMakeDetermineCompilerABI_C.bin
+|   |           |       |   |   CMakeDetermineCompilerABI_CXX.bin
+|   |           |       |   |   CMakeSystem.cmake
+|   |           |       |   |   
+|   |           |       |   +---CompilerIdC
+|   |           |       |   |   |   CMakeCCompilerId.c
+|   |           |       |   |   |   CMakeCCompilerId.o
+|   |           |       |   |   |   
+|   |           |       |   |   \---tmp
+|   |           |       |   \---CompilerIdCXX
+|   |           |       |       |   CMakeCXXCompilerId.cpp
+|   |           |       |       |   CMakeCXXCompilerId.o
+|   |           |       |       |   
+|   |           |       |       \---tmp
+|   |           |       \---CMakeTmp
+|   |           \---x86_64
+|   |               |   additional_project_files.txt
+|   |               |   android_gradle_build.json
+|   |               |   android_gradle_build_mini.json
+|   |               |   build.ninja
+|   |               |   build_file_index.txt
+|   |               |   CMakeCache.txt
+|   |               |   cmake_install.cmake
+|   |               |   configure_fingerprint.bin
+|   |               |   metadata_generation_command.txt
+|   |               |   prefab_config.json
+|   |               |   symbol_folder_index.txt
+|   |               |   
+|   |               +---.cmake
+|   |               |   \---api
+|   |               |       \---v1
+|   |               |           +---query
+|   |               |           |   \---client-agp
+|   |               |           |           cache-v2
+|   |               |           |           cmakeFiles-v1
+|   |               |           |           codemodel-v2
+|   |               |           |           
+|   |               |           \---reply
+|   |               |                   cache-v2-d05be0581ed5283c7642.json
+|   |               |                   cmakeFiles-v1-02557fa5d180b614ec4a.json
+|   |               |                   codemodel-v2-bc53d1e169ea4c03396e.json
+|   |               |                   directory-.-Debug-d0094a50bb2071803777.json
+|   |               |                   index-2026-07-18T12-55-57-0385.json
+|   |               |                   
+|   |               \---CMakeFiles
+|   |                   |   cmake.check_cache
+|   |                   |   CMakeOutput.log
+|   |                   |   rules.ninja
+|   |                   |   TargetDirectories.txt
+|   |                   |   
+|   |                   +---3.22.1-g37088a8-dirty
+|   |                   |   |   CMakeCCompiler.cmake
+|   |                   |   |   CMakeCXXCompiler.cmake
+|   |                   |   |   CMakeDetermineCompilerABI_C.bin
+|   |                   |   |   CMakeDetermineCompilerABI_CXX.bin
+|   |                   |   |   CMakeSystem.cmake
+|   |                   |   |   
+|   |                   |   +---CompilerIdC
+|   |                   |   |   |   CMakeCCompilerId.c
+|   |                   |   |   |   CMakeCCompilerId.o
+|   |                   |   |   |   
+|   |                   |   |   \---tmp
+|   |                   |   \---CompilerIdCXX
+|   |                   |       |   CMakeCXXCompilerId.cpp
+|   |                   |       |   CMakeCXXCompilerId.o
+|   |                   |       |   
+|   |                   |       \---tmp
+|   |                   \---CMakeTmp
+|   +---3398cd6908f197106f6af43069426ea7
+|   |       gen_dart_plugin_registrant.stamp
+|   |       gen_localizations.stamp
+|   |       _composite.stamp
+|   |       
+|   +---app
+|   |   +---generated
+|   |   |   +---ap_generated_sources
+|   |   |   |   \---debug
+|   |   |   |       \---out
+|   |   |   \---res
+|   |   |       +---pngs
+|   |   |       |   \---debug
+|   |   |       \---resValues
+|   |   |           \---debug
+|   |   +---intermediates
+|   |   |   +---aar_metadata_check
+|   |   |   |   \---debug
+|   |   |   |       \---checkDebugAarMetadata
+|   |   |   +---annotation_processor_list
+|   |   |   |   \---debug
+|   |   |   |       \---javaPreCompileDebug
+|   |   |   |               annotationProcessors.json
+|   |   |   |               
+|   |   |   +---apk_ide_redirect_file
+|   |   |   |   \---debug
+|   |   |   |       \---createDebugApkListingFileRedirect
+|   |   |   |               redirect.txt
+|   |   |   |               
+|   |   |   +---app_metadata
+|   |   |   |   \---debug
+|   |   |   |       \---writeDebugAppMetadata
+|   |   |   |               app-metadata.properties
+|   |   |   |               
+|   |   |   +---assets
+|   |   |   |   \---debug
+|   |   |   |       \---mergeDebugAssets
+|   |   |   |           \---flutter_assets
+|   |   |   |               |   AssetManifest.bin
+|   |   |   |               |   AssetManifest.json
+|   |   |   |               |   FontManifest.json
+|   |   |   |               |   isolate_snapshot_data
+|   |   |   |               |   kernel_blob.bin
+|   |   |   |               |   NativeAssetsManifest.json
+|   |   |   |               |   NOTICES.Z
+|   |   |   |               |   vm_snapshot_data
+|   |   |   |               |   
+|   |   |   |               +---assets
+|   |   |   |               |   +---icons
+|   |   |   |               |   |       ai_icon_small.png
+|   |   |   |               |   |       edit_icon_small.png
+|   |   |   |               |   |       home_icon.png
+|   |   |   |               |   |       message_icon.png
+|   |   |   |               |   |       music_icon_small.png
+|   |   |   |               |   |       profile_icon.png
+|   |   |   |               |   |       rocket_icon.png
+|   |   |   |               |   |       search_icon.png
+|   |   |   |               |   |       search_icon.svg
+|   |   |   |               |   |       trending_up_icon_small.png
+|   |   |   |               |   |       
+|   |   |   |               |   +---images
+|   |   |   |               |   |       img_1.jpg
+|   |   |   |               |   |       img_2.jpg
+|   |   |   |               |   |       img_3.jpg
+|   |   |   |               |   |       profile.png
+|   |   |   |               |   |       
+|   |   |   |               |   \---logo
+|   |   |   |               |       |   assistant_logo.png
+|   |   |   |               |       |   camera_logo.png
+|   |   |   |               |       |   company_logo.png
+|   |   |   |               |       |   lipstick_image.png
+|   |   |   |               |       |   
+|   |   |   |               |       \---social
+|   |   |   |               |               facebook.png
+|   |   |   |               |               facebook_story.png
+|   |   |   |               |               instagram.png
+|   |   |   |               |               instagram_story.png
+|   |   |   |               |               mail.png
+|   |   |   |               |               messenger.png
+|   |   |   |               |               other_social.png
+|   |   |   |               |               telegram.png
+|   |   |   |               |               tiktok.png
+|   |   |   |               |               whatsapp.png
+|   |   |   |               |               whatsapp_business.png
+|   |   |   |               |               
+|   |   |   |               +---fonts
+|   |   |   |               |       MaterialIcons-Regular.otf
+|   |   |   |               |       
+|   |   |   |               +---packages
+|   |   |   |               |   \---cupertino_icons
+|   |   |   |               |       \---assets
+|   |   |   |               |               CupertinoIcons.ttf
+|   |   |   |               |               
+|   |   |   |               \---shaders
+|   |   |   |                       ink_sparkle.frag
+|   |   |   |                       
+|   |   |   +---compatible_screen_manifest
+|   |   |   |   \---debug
+|   |   |   |       \---createDebugCompatibleScreenManifests
+|   |   |   |               output-metadata.json
+|   |   |   |               
+|   |   |   +---compile_and_runtime_not_namespaced_r_class_jar
+|   |   |   |   \---debug
+|   |   |   |       \---processDebugResources
+|   |   |   |               R.jar
+|   |   |   |               
+|   |   |   +---compressed_assets
+|   |   |   |   \---debug
+|   |   |   |       \---compressDebugAssets
+|   |   |   |           \---out
+|   |   |   |               \---assets
+|   |   |   |                   \---flutter_assets
+|   |   |   |                       |   AssetManifest.bin.jar
+|   |   |   |                       |   AssetManifest.json.jar
+|   |   |   |                       |   FontManifest.json.jar
+|   |   |   |                       |   isolate_snapshot_data.jar
+|   |   |   |                       |   kernel_blob.bin.jar
+|   |   |   |                       |   NativeAssetsManifest.json.jar
+|   |   |   |                       |   NOTICES.Z.jar
+|   |   |   |                       |   vm_snapshot_data.jar
+|   |   |   |                       |   
+|   |   |   |                       +---assets
+|   |   |   |                       |   +---icons
+|   |   |   |                       |   |       ai_icon_small.png.jar
+|   |   |   |                       |   |       edit_icon_small.png.jar
+|   |   |   |                       |   |       home_icon.png.jar
+|   |   |   |                       |   |       message_icon.png.jar
+|   |   |   |                       |   |       music_icon_small.png.jar
+|   |   |   |                       |   |       profile_icon.png.jar
+|   |   |   |                       |   |       rocket_icon.png.jar
+|   |   |   |                       |   |       search_icon.png.jar
+|   |   |   |                       |   |       search_icon.svg.jar
+|   |   |   |                       |   |       trending_up_icon_small.png.jar
+|   |   |   |                       |   |       
+|   |   |   |                       |   +---images
+|   |   |   |                       |   |       img_1.jpg.jar
+|   |   |   |                       |   |       img_2.jpg.jar
+|   |   |   |                       |   |       img_3.jpg.jar
+|   |   |   |                       |   |       profile.png.jar
+|   |   |   |                       |   |       
+|   |   |   |                       |   \---logo
+|   |   |   |                       |       |   assistant_logo.png.jar
+|   |   |   |                       |       |   camera_logo.png.jar
+|   |   |   |                       |       |   company_logo.png.jar
+|   |   |   |                       |       |   lipstick_image.png.jar
+|   |   |   |                       |       |   
+|   |   |   |                       |       \---social
+|   |   |   |                       |               facebook.png.jar
+|   |   |   |                       |               facebook_story.png.jar
+|   |   |   |                       |               instagram.png.jar
+|   |   |   |                       |               instagram_story.png.jar
+|   |   |   |                       |               mail.png.jar
+|   |   |   |                       |               messenger.png.jar
+|   |   |   |                       |               other_social.png.jar
+|   |   |   |                       |               telegram.png.jar
+|   |   |   |                       |               tiktok.png.jar
+|   |   |   |                       |               whatsapp.png.jar
+|   |   |   |                       |               whatsapp_business.png.jar
+|   |   |   |                       |               
+|   |   |   |                       +---fonts
+|   |   |   |                       |       MaterialIcons-Regular.otf.jar
+|   |   |   |                       |       
+|   |   |   |                       +---packages
+|   |   |   |                       |   \---cupertino_icons
+|   |   |   |                       |       \---assets
+|   |   |   |                       |               CupertinoIcons.ttf.jar
+|   |   |   |                       |               
+|   |   |   |                       \---shaders
+|   |   |   |                               ink_sparkle.frag.jar
+|   |   |   |                               
+|   |   |   +---cxx
+|   |   |   |   \---Debug
+|   |   |   |       +---5fh3voj4
+|   |   |   |       |   +---logs
+|   |   |   |       |   |   +---arm64-v8a
+|   |   |   |       |   |   |       build_model.json
+|   |   |   |       |   |   |       configure_command.bat
+|   |   |   |       |   |   |       configure_stderr.txt
+|   |   |   |       |   |   |       configure_stdout.txt
+|   |   |   |       |   |   |       generate_cxx_metadata_124_timing.txt
+|   |   |   |       |   |   |       generate_cxx_metadata_388_timing.txt
+|   |   |   |       |   |   |       generate_cxx_metadata_594_timing.txt
+|   |   |   |       |   |   |       metadata_generation_record.json
+|   |   |   |       |   |   |       
+|   |   |   |       |   |   +---armeabi-v7a
+|   |   |   |       |   |   |       build_model.json
+|   |   |   |       |   |   |       configure_command.bat
+|   |   |   |       |   |   |       configure_stderr.txt
+|   |   |   |       |   |   |       configure_stdout.txt
+|   |   |   |       |   |   |       generate_cxx_metadata_124_timing.txt
+|   |   |   |       |   |   |       generate_cxx_metadata_388_timing.txt
+|   |   |   |       |   |   |       generate_cxx_metadata_594_timing.txt
+|   |   |   |       |   |   |       metadata_generation_record.json
+|   |   |   |       |   |   |       
+|   |   |   |       |   |   +---x86
+|   |   |   |       |   |   |       build_model.json
+|   |   |   |       |   |   |       configure_command.bat
+|   |   |   |       |   |   |       configure_stderr.txt
+|   |   |   |       |   |   |       configure_stdout.txt
+|   |   |   |       |   |   |       generate_cxx_metadata_124_timing.txt
+|   |   |   |       |   |   |       generate_cxx_metadata_388_timing.txt
+|   |   |   |       |   |   |       generate_cxx_metadata_591_timing.txt
+|   |   |   |       |   |   |       metadata_generation_record.json
+|   |   |   |       |   |   |       
+|   |   |   |       |   |   \---x86_64
+|   |   |   |       |   |           build_model.json
+|   |   |   |       |   |           configure_command.bat
+|   |   |   |       |   |           configure_stderr.txt
+|   |   |   |       |   |           configure_stdout.txt
+|   |   |   |       |   |           generate_cxx_metadata_124_timing.txt
+|   |   |   |       |   |           generate_cxx_metadata_388_timing.txt
+|   |   |   |       |   |           generate_cxx_metadata_591_timing.txt
+|   |   |   |       |   |           metadata_generation_record.json
+|   |   |   |       |   |           
+|   |   |   |       |   \---obj
+|   |   |   |       |       +---arm64-v8a
+|   |   |   |       |       +---armeabi-v7a
+|   |   |   |       |       +---x86
+|   |   |   |       |       \---x86_64
+|   |   |   |       \---73s332c3
+|   |   |   |           +---logs
+|   |   |   |           |   +---arm64-v8a
+|   |   |   |           |   |       build_model.json
+|   |   |   |           |   |       configure_command.bat
+|   |   |   |           |   |       configure_stderr.txt
+|   |   |   |           |   |       configure_stdout.txt
+|   |   |   |           |   |       generate_cxx_metadata_129_timing.txt
+|   |   |   |           |   |       generate_cxx_metadata_401_timing.txt
+|   |   |   |           |   |       metadata_generation_record.json
+|   |   |   |           |   |       
+|   |   |   |           |   +---armeabi-v7a
+|   |   |   |           |   |       build_model.json
+|   |   |   |           |   |       configure_command.bat
+|   |   |   |           |   |       configure_stderr.txt
+|   |   |   |           |   |       configure_stdout.txt
+|   |   |   |           |   |       generate_cxx_metadata_124_timing.txt
+|   |   |   |           |   |       generate_cxx_metadata_130_timing.txt
+|   |   |   |           |   |       generate_cxx_metadata_398_timing.txt
+|   |   |   |           |   |       metadata_generation_record.json
+|   |   |   |           |   |       
+|   |   |   |           |   +---x86
+|   |   |   |           |   |       build_model.json
+|   |   |   |           |   |       configure_command.bat
+|   |   |   |           |   |       configure_stderr.txt
+|   |   |   |           |   |       configure_stdout.txt
+|   |   |   |           |   |       generate_cxx_metadata_124_timing.txt
+|   |   |   |           |   |       generate_cxx_metadata_130_timing.txt
+|   |   |   |           |   |       generate_cxx_metadata_398_timing.txt
+|   |   |   |           |   |       metadata_generation_record.json
+|   |   |   |           |   |       
+|   |   |   |           |   \---x86_64
+|   |   |   |           |           build_model.json
+|   |   |   |           |           configure_command.bat
+|   |   |   |           |           configure_stderr.txt
+|   |   |   |           |           configure_stdout.txt
+|   |   |   |           |           generate_cxx_metadata_124_timing.txt
+|   |   |   |           |           generate_cxx_metadata_130_timing.txt
+|   |   |   |           |           generate_cxx_metadata_398_timing.txt
+|   |   |   |           |           metadata_generation_record.json
+|   |   |   |           |           
+|   |   |   |           \---obj
+|   |   |   |               +---arm64-v8a
+|   |   |   |               +---armeabi-v7a
+|   |   |   |               +---x86
+|   |   |   |               \---x86_64
+|   |   |   +---data_binding_layout_info_type_merge
+|   |   |   |   \---debug
+|   |   |   |       \---mergeDebugResources
+|   |   |   |           \---out
+|   |   |   +---data_binding_layout_info_type_package
+|   |   |   |   \---debug
+|   |   |   |       \---packageDebugResources
+|   |   |   |           \---out
+|   |   |   +---desugar_graph
+|   |   |   |   \---debug
+|   |   |   |       \---dexBuilderDebug
+|   |   |   |           \---out
+|   |   |   |               +---currentProject
+|   |   |   |               |   +---dirs_bucket_0
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---dirs_bucket_1
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---dirs_bucket_2
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---dirs_bucket_3
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---dirs_bucket_4
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---dirs_bucket_5
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---dirs_bucket_6
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---dirs_bucket_7
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---jar_3aa3ba2c1549cd209d22e1d1cf3ed7a94011aee51713348f2b9c1763c2da3a6c_bucket_0
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---jar_3aa3ba2c1549cd209d22e1d1cf3ed7a94011aee51713348f2b9c1763c2da3a6c_bucket_1
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---jar_3aa3ba2c1549cd209d22e1d1cf3ed7a94011aee51713348f2b9c1763c2da3a6c_bucket_2
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---jar_3aa3ba2c1549cd209d22e1d1cf3ed7a94011aee51713348f2b9c1763c2da3a6c_bucket_3
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---jar_3aa3ba2c1549cd209d22e1d1cf3ed7a94011aee51713348f2b9c1763c2da3a6c_bucket_4
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---jar_3aa3ba2c1549cd209d22e1d1cf3ed7a94011aee51713348f2b9c1763c2da3a6c_bucket_5
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   +---jar_3aa3ba2c1549cd209d22e1d1cf3ed7a94011aee51713348f2b9c1763c2da3a6c_bucket_6
+|   |   |   |               |   |       graph.bin
+|   |   |   |               |   |       
+|   |   |   |               |   \---jar_3aa3ba2c1549cd209d22e1d1cf3ed7a94011aee51713348f2b9c1763c2da3a6c_bucket_7
+|   |   |   |               |           graph.bin
+|   |   |   |               |           
+|   |   |   |               +---externalLibs
+|   |   |   |               +---mixedScopes
+|   |   |   |               \---otherProjects
+|   |   |   +---dex
+|   |   |   |   \---debug
+|   |   |   |       +---mergeExtDexDebug
+|   |   |   |       |       classes.dex
+|   |   |   |       |       
+|   |   |   |       +---mergeLibDexDebug
+|   |   |   |       |   +---0
+|   |   |   |       |   |       classes.dex
+|   |   |   |       |   |       
+|   |   |   |       |   +---1
+|   |   |   |       |   +---10
+|   |   |   |       |   +---11
+|   |   |   |       |   +---12
+|   |   |   |       |   +---13
+|   |   |   |       |   +---14
+|   |   |   |       |   +---15
+|   |   |   |       |   +---2
+|   |   |   |       |   +---3
+|   |   |   |       |   +---4
+|   |   |   |       |   +---5
+|   |   |   |       |   +---6
+|   |   |   |       |   +---7
+|   |   |   |       |   +---8
+|   |   |   |       |   \---9
+|   |   |   |       \---mergeProjectDexDebug
+|   |   |   |           +---0
+|   |   |   |           |       classes.dex
+|   |   |   |           |       
+|   |   |   |           +---1
+|   |   |   |           |       classes.dex
+|   |   |   |           |       
+|   |   |   |           +---10
+|   |   |   |           |       classes.dex
+|   |   |   |           |       
+|   |   |   |           +---11
+|   |   |   |           +---12
+|   |   |   |           +---13
+|   |   |   |           +---14
+|   |   |   |           +---15
+|   |   |   |           +---2
+|   |   |   |           +---3
+|   |   |   |           +---4
+|   |   |   |           +---5
+|   |   |   |           +---6
+|   |   |   |           +---7
+|   |   |   |           +---8
+|   |   |   |           \---9
+|   |   |   +---dex_archive_input_jar_hashes
+|   |   |   |   \---debug
+|   |   |   |       \---dexBuilderDebug
+|   |   |   |               out
+|   |   |   |               
+|   |   |   +---dex_number_of_buckets_file
+|   |   |   |   \---debug
+|   |   |   |       \---dexBuilderDebug
+|   |   |   |               out
+|   |   |   |               
+|   |   |   +---duplicate_classes_check
+|   |   |   |   \---debug
+|   |   |   |       \---checkDebugDuplicateClasses
+|   |   |   +---external_file_lib_dex_archives
+|   |   |   |   \---debug
+|   |   |   |       \---desugarDebugFileDependencies
+|   |   |   +---external_libs_dex_archive
+|   |   |   |   \---debug
+|   |   |   |       \---dexBuilderDebug
+|   |   |   |           \---out
+|   |   |   +---external_libs_dex_archive_with_artifact_transforms
+|   |   |   |   \---debug
+|   |   |   |       \---dexBuilderDebug
+|   |   |   |           \---out
+|   |   |   +---flutter
+|   |   |   |   \---debug
+|   |   |   |       |   .last_build_id
+|   |   |   |       |   flutter_build.d
+|   |   |   |       |   libs.jar
+|   |   |   |       |   
+|   |   |   |       \---flutter_assets
+|   |   |   |           |   AssetManifest.bin
+|   |   |   |           |   AssetManifest.json
+|   |   |   |           |   FontManifest.json
+|   |   |   |           |   isolate_snapshot_data
+|   |   |   |           |   kernel_blob.bin
+|   |   |   |           |   NativeAssetsManifest.json
+|   |   |   |           |   NOTICES.Z
+|   |   |   |           |   vm_snapshot_data
+|   |   |   |           |   
+|   |   |   |           +---assets
+|   |   |   |           |   +---icons
+|   |   |   |           |   |       ai_icon_small.png
+|   |   |   |           |   |       edit_icon_small.png
+|   |   |   |           |   |       home_icon.png
+|   |   |   |           |   |       message_icon.png
+|   |   |   |           |   |       music_icon_small.png
+|   |   |   |           |   |       profile_icon.png
+|   |   |   |           |   |       rocket_icon.png
+|   |   |   |           |   |       search_icon.png
+|   |   |   |           |   |       search_icon.svg
+|   |   |   |           |   |       trending_up_icon_small.png
+|   |   |   |           |   |       
+|   |   |   |           |   +---images
+|   |   |   |           |   |       img_1.jpg
+|   |   |   |           |   |       img_2.jpg
+|   |   |   |           |   |       img_3.jpg
+|   |   |   |           |   |       profile.png
+|   |   |   |           |   |       
+|   |   |   |           |   \---logo
+|   |   |   |           |       |   assistant_logo.png
+|   |   |   |           |       |   camera_logo.png
+|   |   |   |           |       |   company_logo.png
+|   |   |   |           |       |   lipstick_image.png
+|   |   |   |           |       |   
+|   |   |   |           |       \---social
+|   |   |   |           |               facebook.png
+|   |   |   |           |               facebook_story.png
+|   |   |   |           |               instagram.png
+|   |   |   |           |               instagram_story.png
+|   |   |   |           |               mail.png
+|   |   |   |           |               messenger.png
+|   |   |   |           |               other_social.png
+|   |   |   |           |               telegram.png
+|   |   |   |           |               tiktok.png
+|   |   |   |           |               whatsapp.png
+|   |   |   |           |               whatsapp_business.png
+|   |   |   |           |               
+|   |   |   |           +---fonts
+|   |   |   |           |       MaterialIcons-Regular.otf
+|   |   |   |           |       
+|   |   |   |           +---packages
+|   |   |   |           |   \---cupertino_icons
+|   |   |   |           |       \---assets
+|   |   |   |           |               CupertinoIcons.ttf
+|   |   |   |           |               
+|   |   |   |           \---shaders
+|   |   |   |                   ink_sparkle.frag
+|   |   |   |                   
+|   |   |   +---incremental
+|   |   |   |   +---debug
+|   |   |   |   |   +---mergeDebugResources
+|   |   |   |   |   |   |   compile-file-map.properties
+|   |   |   |   |   |   |   merger.xml
+|   |   |   |   |   |   |   
+|   |   |   |   |   |   +---merged.dir
+|   |   |   |   |   |   \---stripped.dir
+|   |   |   |   |   \---packageDebugResources
+|   |   |   |   |       |   compile-file-map.properties
+|   |   |   |   |       |   merger.xml
+|   |   |   |   |       |   
+|   |   |   |   |       +---merged.dir
+|   |   |   |   |       \---stripped.dir
+|   |   |   |   +---debug-mergeJavaRes
+|   |   |   |   |   |   merge-state
+|   |   |   |   |   |   
+|   |   |   |   |   \---zip-cache
+|   |   |   |   |           +V22iMQppiGQVci6knQEJefvQkc=
+|   |   |   |   |           0FB7RU1yMD_LCinDpz+UQpP8U3M=
+|   |   |   |   |           0Grf51QJJb1GFYtaAnxHseD4oL8=
+|   |   |   |   |           294Dv+_EUF_pcfBEpDnY1GjAEM4=
+|   |   |   |   |           44O_duUoSROZeMWDy+XnmkR1xUc=
+|   |   |   |   |           4FqATyxSNx2eGAgVuuxz175aXO0=
+|   |   |   |   |           6aSK2xHl47lseZX9oezr0bbyEaE=
+|   |   |   |   |           6Cpp4XNSldZkJmFpFrJFNCExZJA=
+|   |   |   |   |           72PF5WZ0MzwEnvXH0Pg08uP8jvA=
+|   |   |   |   |           BoOLNA16QDldIayraEHLUF1B4qM=
+|   |   |   |   |           C5XB3E2ZwMCVBcuCfLqaVeRj9ys=
+|   |   |   |   |           D5hN8zxHlGNVi7GEygPSNJgS11E=
+|   |   |   |   |           d710lewdO1IEN7nRMlXauqEF4Eo=
+|   |   |   |   |           deyzePgHnCW3k5FG_HdVR9CzbfU=
+|   |   |   |   |           e3JFsntz+ngRUws4StmVnEQrlGg=
+|   |   |   |   |           efsZMqIHQ4TQuEPUMe9JkVgnAGw=
+|   |   |   |   |           fV358nUZV5wO8iZR0TOf6Q7TePQ=
+|   |   |   |   |           gzGEmvMv_npF915IUA6ImQ5erdA=
+|   |   |   |   |           HFfZjsyMpyhfU4ayR6PxuY6aZ7I=
+|   |   |   |   |           i8a0lnfBrEhzrSM7lYf4ZOUMFOA=
+|   |   |   |   |           JgIKIow5Besj1WAGAtPEiKFPXhA=
+|   |   |   |   |           kFcIX69riRyWQgpk4tN5cb5HytM=
+|   |   |   |   |           ksQ4HGMBkn4YyDKY0TMxu1L_v_c=
+|   |   |   |   |           lIlaYh4Nvn0ZAvTZ8aQo297XjFU=
+|   |   |   |   |           LkBazw7XmMymB6fDMCiRQF86zYE=
+|   |   |   |   |           lwxviOtjkv83KNtEcfE8M4lFJsU=
+|   |   |   |   |           MaUHn+cOZNVO7J5XT5xzGWGrx3o=
+|   |   |   |   |           mdBRuOZmII22a06kEfhV_uH400I=
+|   |   |   |   |           mdKEX+o7Sb29GgjZxmbup6JVDgg=
+|   |   |   |   |           oMzDFLAXU+7pt_zgw4VYimEcBTE=
+|   |   |   |   |           oS13VyL7zAyyVskiro8t6czBCH8=
+|   |   |   |   |           QOLLzo2WVIOlWSaaiLR2ujEu2ZM=
+|   |   |   |   |           r5pqGz_CAy+RCBtEM8XJRt7uomE=
+|   |   |   |   |           s26N8LuKBCJGpXQZBu94zMIxj4g=
+|   |   |   |   |           SkF8Uvxh2cCu6gYLkdRAw7lBiNY=
+|   |   |   |   |           SvtN0R6OQoalxr3Reep9b5z+MQk=
+|   |   |   |   |           t3iXNUluDV_YbZ+ZmaELGoaEgP8=
+|   |   |   |   |           t5BUcTbhkMHvfyQVnLD3gw0Da7w=
+|   |   |   |   |           ufnV1xldYmxV3cSXFR9ty4NcYpA=
+|   |   |   |   |           WO24YtMtUMP4NP95R3q5WeldWy8=
+|   |   |   |   |           XDBfFVQb9iTgAFh101WX2VBODIY=
+|   |   |   |   |           YAp+bmmkU3cIL5ratwAMut6Bc9o=
+|   |   |   |   |           _prJnjGGnuYbjUNK+4TyWkyQGPA=
+|   |   |   |   |           _Z7EF2Tl+Z80eSHOAUiK8fOkTVE=
+|   |   |   |   |           
+|   |   |   |   +---mergeDebugAssets
+|   |   |   |   |       merger.xml
+|   |   |   |   |       
+|   |   |   |   +---mergeDebugJniLibFolders
+|   |   |   |   |       merger.xml
+|   |   |   |   |       
+|   |   |   |   +---mergeDebugShaders
+|   |   |   |   |       merger.xml
+|   |   |   |   |       
+|   |   |   |   \---packageDebug
+|   |   |   |       \---tmp
+|   |   |   |           \---debug
+|   |   |   |               |   dex-renamer-state.txt
+|   |   |   |               |   
+|   |   |   |               \---zip-cache
+|   |   |   |                       androidResources
+|   |   |   |                       javaResources0
+|   |   |   |                       
+|   |   |   +---javac
+|   |   |   |   \---debug
+|   |   |   |       \---compileDebugJavaWithJavac
+|   |   |   |           \---classes
+|   |   |   |               \---io
+|   |   |   |                   \---flutter
+|   |   |   |                       \---plugins
+|   |   |   |                               GeneratedPluginRegistrant.class
+|   |   |   |                               
+|   |   |   +---java_res
+|   |   |   |   \---debug
+|   |   |   |       \---processDebugJavaRes
+|   |   |   |           \---out
+|   |   |   |               +---com
+|   |   |   |               |   \---example
+|   |   |   |               |       \---brandie_smart_posts
+|   |   |   |               \---META-INF
+|   |   |   |                       app_debug.kotlin_module
+|   |   |   |                       
+|   |   |   +---linked_resources_binary_format
+|   |   |   |   \---debug
+|   |   |   |       \---processDebugResources
+|   |   |   |               linked-resources-binary-format-debug.ap_
+|   |   |   |               output-metadata.json
+|   |   |   |               
+|   |   |   +---local_only_symbol_list
+|   |   |   |   \---debug
+|   |   |   |       \---parseDebugLocalResources
+|   |   |   |               R-def.txt
+|   |   |   |               
+|   |   |   +---manifest_merge_blame_file
+|   |   |   |   \---debug
+|   |   |   |       \---processDebugMainManifest
+|   |   |   |               manifest-merger-blame-debug-report.txt
+|   |   |   |               
+|   |   |   +---merged_java_res
+|   |   |   |   \---debug
+|   |   |   |       \---mergeDebugJavaResource
+|   |   |   |               base.jar
+|   |   |   |               
+|   |   |   +---merged_jni_libs
+|   |   |   |   \---debug
+|   |   |   |       \---mergeDebugJniLibFolders
+|   |   |   |           \---out
+|   |   |   +---merged_manifest
+|   |   |   |   \---debug
+|   |   |   |       \---processDebugMainManifest
+|   |   |   |               AndroidManifest.xml
+|   |   |   |               
+|   |   |   +---merged_manifests
+|   |   |   |   \---debug
+|   |   |   |       \---processDebugManifest
+|   |   |   |               AndroidManifest.xml
+|   |   |   |               output-metadata.json
+|   |   |   |               
+|   |   |   +---merged_native_libs
+|   |   |   |   \---debug
+|   |   |   |       \---mergeDebugNativeLibs
+|   |   |   |           \---out
+|   |   |   |               \---lib
+|   |   |   |                   \---x86_64
+|   |   |   |                           libflutter.so
+|   |   |   |                           
+|   |   |   +---merged_res
+|   |   |   |   \---debug
+|   |   |   |       \---mergeDebugResources
+|   |   |   |               drawable-v21_launch_background.xml.flat
+|   |   |   |               mipmap-hdpi_ic_launcher.png.flat
+|   |   |   |               mipmap-mdpi_ic_launcher.png.flat
+|   |   |   |               mipmap-xhdpi_ic_launcher.png.flat
+|   |   |   |               mipmap-xxhdpi_ic_launcher.png.flat
+|   |   |   |               mipmap-xxxhdpi_ic_launcher.png.flat
+|   |   |   |               values-af_values-af.arsc.flat
+|   |   |   |               values-am_values-am.arsc.flat
+|   |   |   |               values-ar_values-ar.arsc.flat
+|   |   |   |               values-as_values-as.arsc.flat
+|   |   |   |               values-az_values-az.arsc.flat
+|   |   |   |               values-b+sr+Latn_values-b+sr+Latn.arsc.flat
+|   |   |   |               values-be_values-be.arsc.flat
+|   |   |   |               values-bg_values-bg.arsc.flat
+|   |   |   |               values-bn_values-bn.arsc.flat
+|   |   |   |               values-bs_values-bs.arsc.flat
+|   |   |   |               values-ca_values-ca.arsc.flat
+|   |   |   |               values-cs_values-cs.arsc.flat
+|   |   |   |               values-da_values-da.arsc.flat
+|   |   |   |               values-de_values-de.arsc.flat
+|   |   |   |               values-el_values-el.arsc.flat
+|   |   |   |               values-en-rAU_values-en-rAU.arsc.flat
+|   |   |   |               values-en-rCA_values-en-rCA.arsc.flat
+|   |   |   |               values-en-rGB_values-en-rGB.arsc.flat
+|   |   |   |               values-en-rIN_values-en-rIN.arsc.flat
+|   |   |   |               values-en-rXC_values-en-rXC.arsc.flat
+|   |   |   |               values-es-rUS_values-es-rUS.arsc.flat
+|   |   |   |               values-es_values-es.arsc.flat
+|   |   |   |               values-et_values-et.arsc.flat
+|   |   |   |               values-eu_values-eu.arsc.flat
+|   |   |   |               values-fa_values-fa.arsc.flat
+|   |   |   |               values-fi_values-fi.arsc.flat
+|   |   |   |               values-fr-rCA_values-fr-rCA.arsc.flat
+|   |   |   |               values-fr_values-fr.arsc.flat
+|   |   |   |               values-gl_values-gl.arsc.flat
+|   |   |   |               values-gu_values-gu.arsc.flat
+|   |   |   |               values-hi_values-hi.arsc.flat
+|   |   |   |               values-hr_values-hr.arsc.flat
+|   |   |   |               values-hu_values-hu.arsc.flat
+|   |   |   |               values-hy_values-hy.arsc.flat
+|   |   |   |               values-in_values-in.arsc.flat
+|   |   |   |               values-is_values-is.arsc.flat
+|   |   |   |               values-it_values-it.arsc.flat
+|   |   |   |               values-iw_values-iw.arsc.flat
+|   |   |   |               values-ja_values-ja.arsc.flat
+|   |   |   |               values-ka_values-ka.arsc.flat
+|   |   |   |               values-kk_values-kk.arsc.flat
+|   |   |   |               values-km_values-km.arsc.flat
+|   |   |   |               values-kn_values-kn.arsc.flat
+|   |   |   |               values-ko_values-ko.arsc.flat
+|   |   |   |               values-ky_values-ky.arsc.flat
+|   |   |   |               values-lo_values-lo.arsc.flat
+|   |   |   |               values-lt_values-lt.arsc.flat
+|   |   |   |               values-lv_values-lv.arsc.flat
+|   |   |   |               values-mk_values-mk.arsc.flat
+|   |   |   |               values-ml_values-ml.arsc.flat
+|   |   |   |               values-mn_values-mn.arsc.flat
+|   |   |   |               values-mr_values-mr.arsc.flat
+|   |   |   |               values-ms_values-ms.arsc.flat
+|   |   |   |               values-my_values-my.arsc.flat
+|   |   |   |               values-nb_values-nb.arsc.flat
+|   |   |   |               values-ne_values-ne.arsc.flat
+|   |   |   |               values-night-v8_values-night-v8.arsc.flat
+|   |   |   |               values-nl_values-nl.arsc.flat
+|   |   |   |               values-or_values-or.arsc.flat
+|   |   |   |               values-pa_values-pa.arsc.flat
+|   |   |   |               values-pl_values-pl.arsc.flat
+|   |   |   |               values-pt-rBR_values-pt-rBR.arsc.flat
+|   |   |   |               values-pt-rPT_values-pt-rPT.arsc.flat
+|   |   |   |               values-pt_values-pt.arsc.flat
+|   |   |   |               values-ro_values-ro.arsc.flat
+|   |   |   |               values-ru_values-ru.arsc.flat
+|   |   |   |               values-si_values-si.arsc.flat
+|   |   |   |               values-sk_values-sk.arsc.flat
+|   |   |   |               values-sl_values-sl.arsc.flat
+|   |   |   |               values-sq_values-sq.arsc.flat
+|   |   |   |               values-sr_values-sr.arsc.flat
+|   |   |   |               values-sv_values-sv.arsc.flat
+|   |   |   |               values-sw_values-sw.arsc.flat
+|   |   |   |               values-ta_values-ta.arsc.flat
+|   |   |   |               values-te_values-te.arsc.flat
+|   |   |   |               values-th_values-th.arsc.flat
+|   |   |   |               values-tl_values-tl.arsc.flat
+|   |   |   |               values-tr_values-tr.arsc.flat
+|   |   |   |               values-uk_values-uk.arsc.flat
+|   |   |   |               values-ur_values-ur.arsc.flat
+|   |   |   |               values-uz_values-uz.arsc.flat
+|   |   |   |               values-v21_values-v21.arsc.flat
+|   |   |   |               values-vi_values-vi.arsc.flat
+|   |   |   |               values-zh-rCN_values-zh-rCN.arsc.flat
+|   |   |   |               values-zh-rHK_values-zh-rHK.arsc.flat
+|   |   |   |               values-zh-rTW_values-zh-rTW.arsc.flat
+|   |   |   |               values-zu_values-zu.arsc.flat
+|   |   |   |               values_values.arsc.flat
+|   |   |   |               
+|   |   |   +---merged_res_blame_folder
+|   |   |   |   \---debug
+|   |   |   |       \---mergeDebugResources
+|   |   |   |           \---out
+|   |   |   |               +---multi-v2
+|   |   |   |               |       mergeDebugResources.json
+|   |   |   |               |       values-af.json
+|   |   |   |               |       values-am.json
+|   |   |   |               |       values-ar.json
+|   |   |   |               |       values-as.json
+|   |   |   |               |       values-az.json
+|   |   |   |               |       values-b+sr+Latn.json
+|   |   |   |               |       values-be.json
+|   |   |   |               |       values-bg.json
+|   |   |   |               |       values-bn.json
+|   |   |   |               |       values-bs.json
+|   |   |   |               |       values-ca.json
+|   |   |   |               |       values-cs.json
+|   |   |   |               |       values-da.json
+|   |   |   |               |       values-de.json
+|   |   |   |               |       values-el.json
+|   |   |   |               |       values-en-rAU.json
+|   |   |   |               |       values-en-rCA.json
+|   |   |   |               |       values-en-rGB.json
+|   |   |   |               |       values-en-rIN.json
+|   |   |   |               |       values-en-rXC.json
+|   |   |   |               |       values-es-rUS.json
+|   |   |   |               |       values-es.json
+|   |   |   |               |       values-et.json
+|   |   |   |               |       values-eu.json
+|   |   |   |               |       values-fa.json
+|   |   |   |               |       values-fi.json
+|   |   |   |               |       values-fr-rCA.json
+|   |   |   |               |       values-fr.json
+|   |   |   |               |       values-gl.json
+|   |   |   |               |       values-gu.json
+|   |   |   |               |       values-hi.json
+|   |   |   |               |       values-hr.json
+|   |   |   |               |       values-hu.json
+|   |   |   |               |       values-hy.json
+|   |   |   |               |       values-in.json
+|   |   |   |               |       values-is.json
+|   |   |   |               |       values-it.json
+|   |   |   |               |       values-iw.json
+|   |   |   |               |       values-ja.json
+|   |   |   |               |       values-ka.json
+|   |   |   |               |       values-kk.json
+|   |   |   |               |       values-km.json
+|   |   |   |               |       values-kn.json
+|   |   |   |               |       values-ko.json
+|   |   |   |               |       values-ky.json
+|   |   |   |               |       values-lo.json
+|   |   |   |               |       values-lt.json
+|   |   |   |               |       values-lv.json
+|   |   |   |               |       values-mk.json
+|   |   |   |               |       values-ml.json
+|   |   |   |               |       values-mn.json
+|   |   |   |               |       values-mr.json
+|   |   |   |               |       values-ms.json
+|   |   |   |               |       values-my.json
+|   |   |   |               |       values-nb.json
+|   |   |   |               |       values-ne.json
+|   |   |   |               |       values-night-v8.json
+|   |   |   |               |       values-nl.json
+|   |   |   |               |       values-or.json
+|   |   |   |               |       values-pa.json
+|   |   |   |               |       values-pl.json
+|   |   |   |               |       values-pt-rBR.json
+|   |   |   |               |       values-pt-rPT.json
+|   |   |   |               |       values-pt.json
+|   |   |   |               |       values-ro.json
+|   |   |   |               |       values-ru.json
+|   |   |   |               |       values-si.json
+|   |   |   |               |       values-sk.json
+|   |   |   |               |       values-sl.json
+|   |   |   |               |       values-sq.json
+|   |   |   |               |       values-sr.json
+|   |   |   |               |       values-sv.json
+|   |   |   |               |       values-sw.json
+|   |   |   |               |       values-ta.json
+|   |   |   |               |       values-te.json
+|   |   |   |               |       values-th.json
+|   |   |   |               |       values-tl.json
+|   |   |   |               |       values-tr.json
+|   |   |   |               |       values-uk.json
+|   |   |   |               |       values-ur.json
+|   |   |   |               |       values-uz.json
+|   |   |   |               |       values-v21.json
+|   |   |   |               |       values-vi.json
+|   |   |   |               |       values-zh-rCN.json
+|   |   |   |               |       values-zh-rHK.json
+|   |   |   |               |       values-zh-rTW.json
+|   |   |   |               |       values-zu.json
+|   |   |   |               |       values.json
+|   |   |   |               |       
+|   |   |   |               \---single
+|   |   |   |                       mergeDebugResources.json
+|   |   |   |                       
+|   |   |   +---merged_shaders
+|   |   |   |   \---debug
+|   |   |   |       \---mergeDebugShaders
+|   |   |   |           \---out
+|   |   |   +---merged_test_only_native_libs
+|   |   |   |   \---debug
+|   |   |   |       \---mergeDebugNativeLibs
+|   |   |   |           \---out
+|   |   |   +---mixed_scope_dex_archive
+|   |   |   |   \---debug
+|   |   |   |       \---dexBuilderDebug
+|   |   |   |           \---out
+|   |   |   +---navigation_json
+|   |   |   |   \---debug
+|   |   |   |       \---extractDeepLinksDebug
+|   |   |   |               navigation.json
+|   |   |   |               
+|   |   |   +---nested_resources_validation_report
+|   |   |   |   \---debug
+|   |   |   |       \---generateDebugResources
+|   |   |   |               nestedResourcesValidationReport.txt
+|   |   |   |               
+|   |   |   +---packaged_manifests
+|   |   |   |   \---debug
+|   |   |   |       \---processDebugManifestForPackage
+|   |   |   |               AndroidManifest.xml
+|   |   |   |               output-metadata.json
+|   |   |   |               
+|   |   |   +---packaged_res
+|   |   |   |   \---debug
+|   |   |   |       \---packageDebugResources
+|   |   |   |           +---drawable-v21
+|   |   |   |           |       launch_background.xml
+|   |   |   |           |       
+|   |   |   |           +---mipmap-hdpi-v4
+|   |   |   |           |       ic_launcher.png
+|   |   |   |           |       
+|   |   |   |           +---mipmap-mdpi-v4
+|   |   |   |           |       ic_launcher.png
+|   |   |   |           |       
+|   |   |   |           +---mipmap-xhdpi-v4
+|   |   |   |           |       ic_launcher.png
+|   |   |   |           |       
+|   |   |   |           +---mipmap-xxhdpi-v4
+|   |   |   |           |       ic_launcher.png
+|   |   |   |           |       
+|   |   |   |           +---mipmap-xxxhdpi-v4
+|   |   |   |           |       ic_launcher.png
+|   |   |   |           |       
+|   |   |   |           +---values
+|   |   |   |           |       values.xml
+|   |   |   |           |       
+|   |   |   |           \---values-night-v8
+|   |   |   |                   values-night-v8.xml
+|   |   |   |                   
+|   |   |   +---project_dex_archive
+|   |   |   |   \---debug
+|   |   |   |       \---dexBuilderDebug
+|   |   |   |           \---out
+|   |   |   |               |   93f5c1e4964cb19843139d967a2e3e3238578174d678ac50e3845ccedc10bdfa_0.jar
+|   |   |   |               |   93f5c1e4964cb19843139d967a2e3e3238578174d678ac50e3845ccedc10bdfa_1.jar
+|   |   |   |               |   93f5c1e4964cb19843139d967a2e3e3238578174d678ac50e3845ccedc10bdfa_2.jar
+|   |   |   |               |   93f5c1e4964cb19843139d967a2e3e3238578174d678ac50e3845ccedc10bdfa_3.jar
+|   |   |   |               |   93f5c1e4964cb19843139d967a2e3e3238578174d678ac50e3845ccedc10bdfa_4.jar
+|   |   |   |               |   93f5c1e4964cb19843139d967a2e3e3238578174d678ac50e3845ccedc10bdfa_5.jar
+|   |   |   |               |   93f5c1e4964cb19843139d967a2e3e3238578174d678ac50e3845ccedc10bdfa_6.jar
+|   |   |   |               |   93f5c1e4964cb19843139d967a2e3e3238578174d678ac50e3845ccedc10bdfa_7.jar
+|   |   |   |               |   
+|   |   |   |               +---com
+|   |   |   |               |   \---example
+|   |   |   |               |       \---brandie_smart_posts
+|   |   |   |               |               MainActivity.dex
+|   |   |   |               |               
+|   |   |   |               \---io
+|   |   |   |                   \---flutter
+|   |   |   |                       \---plugins
+|   |   |   |                               GeneratedPluginRegistrant.dex
+|   |   |   |                               
+|   |   |   +---runtime_symbol_list
+|   |   |   |   \---debug
+|   |   |   |       \---processDebugResources
+|   |   |   |               R.txt
+|   |   |   |               
+|   |   |   +---signing_config_versions
+|   |   |   |   \---debug
+|   |   |   |       \---writeDebugSigningConfigVersions
+|   |   |   |               signing-config-versions.json
+|   |   |   |               
+|   |   |   +---source_set_path_map
+|   |   |   |   \---debug
+|   |   |   |       \---mapDebugSourceSetPaths
+|   |   |   |               file-map.txt
+|   |   |   |               
+|   |   |   +---stable_resource_ids_file
+|   |   |   |   \---debug
+|   |   |   |       \---processDebugResources
+|   |   |   |               stableIds.txt
+|   |   |   |               
+|   |   |   +---stripped_native_libs
+|   |   |   |   \---debug
+|   |   |   |       \---stripDebugDebugSymbols
+|   |   |   |           \---out
+|   |   |   |               \---lib
+|   |   |   |                   \---x86_64
+|   |   |   |                           libflutter.so
+|   |   |   |                           
+|   |   |   +---sub_project_dex_archive
+|   |   |   |   \---debug
+|   |   |   |       \---dexBuilderDebug
+|   |   |   |           \---out
+|   |   |   +---symbol_list_with_package_name
+|   |   |   |   \---debug
+|   |   |   |       \---processDebugResources
+|   |   |   |               package-aware-r.txt
+|   |   |   |               
+|   |   |   \---validate_signing_config
+|   |   |       \---debug
+|   |   |           \---validateSigningDebug
+|   |   +---kotlin
+|   |   |   \---compileDebugKotlin
+|   |   |       +---cacheable
+|   |   |       |   |   last-build.bin
+|   |   |       |   |   
+|   |   |       |   \---caches-jvm
+|   |   |       |       +---inputs
+|   |   |       |       |       source-to-output.tab
+|   |   |       |       |       source-to-output.tab.keystream
+|   |   |       |       |       source-to-output.tab.keystream.len
+|   |   |       |       |       source-to-output.tab.len
+|   |   |       |       |       source-to-output.tab.values.at
+|   |   |       |       |       source-to-output.tab_i
+|   |   |       |       |       source-to-output.tab_i.len
+|   |   |       |       |       
+|   |   |       |       +---jvm
+|   |   |       |       |   \---kotlin
+|   |   |       |       |           class-attributes.tab
+|   |   |       |       |           class-attributes.tab.keystream
+|   |   |       |       |           class-attributes.tab.keystream.len
+|   |   |       |       |           class-attributes.tab.len
+|   |   |       |       |           class-attributes.tab.values.at
+|   |   |       |       |           class-attributes.tab_i
+|   |   |       |       |           class-attributes.tab_i.len
+|   |   |       |       |           class-fq-name-to-source.tab
+|   |   |       |       |           class-fq-name-to-source.tab.keystream
+|   |   |       |       |           class-fq-name-to-source.tab.keystream.len
+|   |   |       |       |           class-fq-name-to-source.tab.len
+|   |   |       |       |           class-fq-name-to-source.tab.values.at
+|   |   |       |       |           class-fq-name-to-source.tab_i
+|   |   |       |       |           class-fq-name-to-source.tab_i.len
+|   |   |       |       |           internal-name-to-source.tab
+|   |   |       |       |           internal-name-to-source.tab.keystream
+|   |   |       |       |           internal-name-to-source.tab.keystream.len
+|   |   |       |       |           internal-name-to-source.tab.len
+|   |   |       |       |           internal-name-to-source.tab.values.at
+|   |   |       |       |           internal-name-to-source.tab_i
+|   |   |       |       |           internal-name-to-source.tab_i.len
+|   |   |       |       |           proto.tab
+|   |   |       |       |           proto.tab.keystream
+|   |   |       |       |           proto.tab.keystream.len
+|   |   |       |       |           proto.tab.len
+|   |   |       |       |           proto.tab.values.at
+|   |   |       |       |           proto.tab_i
+|   |   |       |       |           proto.tab_i.len
+|   |   |       |       |           source-to-classes.tab
+|   |   |       |       |           source-to-classes.tab.keystream
+|   |   |       |       |           source-to-classes.tab.keystream.len
+|   |   |       |       |           source-to-classes.tab.len
+|   |   |       |       |           source-to-classes.tab.values.at
+|   |   |       |       |           source-to-classes.tab_i
+|   |   |       |       |           source-to-classes.tab_i.len
+|   |   |       |       |           subtypes.tab
+|   |   |       |       |           subtypes.tab.keystream
+|   |   |       |       |           subtypes.tab.keystream.len
+|   |   |       |       |           subtypes.tab.len
+|   |   |       |       |           subtypes.tab.values.at
+|   |   |       |       |           subtypes.tab_i
+|   |   |       |       |           subtypes.tab_i.len
+|   |   |       |       |           supertypes.tab
+|   |   |       |       |           supertypes.tab.keystream
+|   |   |       |       |           supertypes.tab.keystream.len
+|   |   |       |       |           supertypes.tab.len
+|   |   |       |       |           supertypes.tab.values.at
+|   |   |       |       |           supertypes.tab_i
+|   |   |       |       |           supertypes.tab_i.len
+|   |   |       |       |           
+|   |   |       |       \---lookups
+|   |   |       |               counters.tab
+|   |   |       |               file-to-id.tab
+|   |   |       |               file-to-id.tab.keystream
+|   |   |       |               file-to-id.tab.keystream.len
+|   |   |       |               file-to-id.tab.len
+|   |   |       |               file-to-id.tab.values.at
+|   |   |       |               file-to-id.tab_i
+|   |   |       |               file-to-id.tab_i.len
+|   |   |       |               id-to-file.tab
+|   |   |       |               id-to-file.tab.keystream
+|   |   |       |               id-to-file.tab.keystream.len
+|   |   |       |               id-to-file.tab.len
+|   |   |       |               id-to-file.tab.values.at
+|   |   |       |               id-to-file.tab_i.len
+|   |   |       |               lookups.tab
+|   |   |       |               lookups.tab.keystream
+|   |   |       |               lookups.tab.keystream.len
+|   |   |       |               lookups.tab.len
+|   |   |       |               lookups.tab.values.at
+|   |   |       |               lookups.tab_i
+|   |   |       |               lookups.tab_i.len
+|   |   |       |               
+|   |   |       +---classpath-snapshot
+|   |   |       |       shrunk-classpath-snapshot.bin
+|   |   |       |       
+|   |   |       \---local-state
+|   |   |               build-history.bin
+|   |   |               
+|   |   +---outputs
+|   |   |   +---apk
+|   |   |   |   \---debug
+|   |   |   |           app-debug.apk
+|   |   |   |           output-metadata.json
+|   |   |   |           
+|   |   |   +---flutter-apk
+|   |   |   |       app-debug.apk
+|   |   |   |       app-debug.apk.sha1
+|   |   |   |       
+|   |   |   \---logs
+|   |   |           manifest-merger-debug-report.txt
+|   |   |           
+|   |   \---tmp
+|   |       +---compileDebugJavaWithJavac
+|   |       |       previous-compilation-data.bin
+|   |       |       
+|   |       +---kotlin-classes
+|   |       |   \---debug
+|   |       |       +---com
+|   |       |       |   \---example
+|   |       |       |       \---brandie_smart_posts
+|   |       |       |               MainActivity.class
+|   |       |       |               
+|   |       |       \---META-INF
+|   |       |               app_debug.kotlin_module
+|   |       |               
+|   |       \---packJniLibsflutterBuildDebug
+|   |               MANIFEST.MF
+|   |               
+|   +---native_assets
+|   |   \---android
+|   +---reports
+|   |   \---problems
+|   |           problems-report.html
+|   |           
+|   \---url_launcher_android
+|       +---.transforms
+|       |   \---34da3affeb866bc8b35d63f7d9a2abbc
+|       |       |   results.bin
+|       |       |   
+|       |       \---transformed
+|       |           \---classes
+|       |                   classes.dex
+|       |                   
+|       +---generated
+|       |   +---ap_generated_sources
+|       |   |   \---debug
+|       |   |       \---out
+|       |   +---res
+|       |   |   +---pngs
+|       |   |   |   \---debug
+|       |   |   \---resValues
+|       |   |       \---debug
+|       |   \---source
+|       |       \---buildConfig
+|       |           \---debug
+|       |               \---io
+|       |                   \---flutter
+|       |                       \---plugins
+|       |                           \---urllauncher
+|       |                                   BuildConfig.java
+|       |                                   
+|       +---intermediates
+|       |   +---aapt_friendly_merged_manifests
+|       |   |   \---debug
+|       |   |       \---processDebugManifest
+|       |   |           \---aapt
+|       |   |                   AndroidManifest.xml
+|       |   |                   output-metadata.json
+|       |   |                   
+|       |   +---aar_libs_directory
+|       |   |   \---debug
+|       |   |       \---syncDebugLibJars
+|       |   |           \---libs
+|       |   +---aar_main_jar
+|       |   |   \---debug
+|       |   |       \---syncDebugLibJars
+|       |   |               classes.jar
+|       |   |               
+|       |   +---aar_metadata
+|       |   |   \---debug
+|       |   |       \---writeDebugAarMetadata
+|       |   |               aar-metadata.properties
+|       |   |               
+|       |   +---annotations_typedef_file
+|       |   |   \---debug
+|       |   |       \---extractDebugAnnotations
+|       |   |               typedefs.txt
+|       |   |               
+|       |   +---annotations_zip
+|       |   |   \---debug
+|       |   |       \---extractDebugAnnotations
+|       |   +---annotation_processor_list
+|       |   |   \---debug
+|       |   |       \---javaPreCompileDebug
+|       |   |               annotationProcessors.json
+|       |   |               
+|       |   +---compiled_local_resources
+|       |   |   \---debug
+|       |   |       \---compileDebugLibraryResources
+|       |   |           \---out
+|       |   +---compile_library_classes_jar
+|       |   |   \---debug
+|       |   |       \---bundleLibCompileToJarDebug
+|       |   |               classes.jar
+|       |   |               
+|       |   +---compile_r_class_jar
+|       |   |   \---debug
+|       |   |       \---generateDebugRFile
+|       |   |               R.jar
+|       |   |               
+|       |   +---compile_symbol_list
+|       |   |   \---debug
+|       |   |       \---generateDebugRFile
+|       |   |               R.txt
+|       |   |               
+|       |   +---data_binding_layout_info_type_package
+|       |   |   \---debug
+|       |   |       \---packageDebugResources
+|       |   |           \---out
+|       |   +---generated_proguard_file
+|       |   |   \---debug
+|       |   |       \---mergeDebugGeneratedProguardFiles
+|       |   +---incremental
+|       |   |   +---debug
+|       |   |   |   \---packageDebugResources
+|       |   |   |       |   compile-file-map.properties
+|       |   |   |       |   merger.xml
+|       |   |   |       |   
+|       |   |   |       +---merged.dir
+|       |   |   |       \---stripped.dir
+|       |   |   +---debug-mergeJavaRes
+|       |   |   |   |   merge-state
+|       |   |   |   |   
+|       |   |   |   \---zip-cache
+|       |   |   +---mergeDebugJniLibFolders
+|       |   |   |       merger.xml
+|       |   |   |       
+|       |   |   +---mergeDebugShaders
+|       |   |   |       merger.xml
+|       |   |   |       
+|       |   |   \---packageDebugAssets
+|       |   |           merger.xml
+|       |   |           
+|       |   +---javac
+|       |   |   \---debug
+|       |   |       \---compileDebugJavaWithJavac
+|       |   |           \---classes
+|       |   |               \---io
+|       |   |                   \---flutter
+|       |   |                       \---plugins
+|       |   |                           \---urllauncher
+|       |   |                                   BuildConfig.class
+|       |   |                                   Messages$BrowserOptions$Builder.class
+|       |   |                                   Messages$BrowserOptions.class
+|       |   |                                   Messages$CanIgnoreReturnValue.class
+|       |   |                                   Messages$FlutterError.class
+|       |   |                                   Messages$PigeonCodec.class
+|       |   |                                   Messages$UrlLauncherApi.class
+|       |   |                                   Messages$WebViewOptions$Builder.class
+|       |   |                                   Messages$WebViewOptions.class
+|       |   |                                   Messages.class
+|       |   |                                   UrlLauncher$IntentResolver.class
+|       |   |                                   UrlLauncher.class
+|       |   |                                   UrlLauncherPlugin.class
+|       |   |                                   WebViewActivity$1.class
+|       |   |                                   WebViewActivity$2.class
+|       |   |                                   WebViewActivity$FlutterWebChromeClient$1.class
+|       |   |                                   WebViewActivity$FlutterWebChromeClient.class
+|       |   |                                   WebViewActivity.class
+|       |   |                                   
+|       |   +---library_and_local_jars_jni
+|       |   |   \---debug
+|       |   |       \---copyDebugJniLibsProjectAndLocalJars
+|       |   |           \---jni
+|       |   +---library_art_profile
+|       |   |   \---debug
+|       |   |       \---prepareDebugArtProfile
+|       |   +---library_assets
+|       |   |   \---debug
+|       |   |       \---packageDebugAssets
+|       |   |           \---out
+|       |   +---library_jni
+|       |   |   \---debug
+|       |   |       \---copyDebugJniLibsProjectOnly
+|       |   |           \---jni
+|       |   +---lint_publish_jar
+|       |   |   \---global
+|       |   |       \---prepareLintJarForPublish
+|       |   +---local_only_symbol_list
+|       |   |   \---debug
+|       |   |       \---parseDebugLocalResources
+|       |   |               R-def.txt
+|       |   |               
+|       |   +---manifest_merge_blame_file
+|       |   |   \---debug
+|       |   |       \---processDebugManifest
+|       |   |               manifest-merger-blame-debug-report.txt
+|       |   |               
+|       |   +---merged_consumer_proguard_file
+|       |   |   \---debug
+|       |   |       \---mergeDebugConsumerProguardFiles
+|       |   +---merged_java_res
+|       |   |   \---debug
+|       |   |       \---mergeDebugJavaResource
+|       |   |               feature-url_launcher_android.jar
+|       |   |               
+|       |   +---merged_jni_libs
+|       |   |   \---debug
+|       |   |       \---mergeDebugJniLibFolders
+|       |   |           \---out
+|       |   +---merged_manifest
+|       |   |   \---debug
+|       |   |       \---processDebugManifest
+|       |   |               AndroidManifest.xml
+|       |   |               
+|       |   +---merged_shaders
+|       |   |   \---debug
+|       |   |       \---mergeDebugShaders
+|       |   |           \---out
+|       |   +---navigation_json
+|       |   |   \---debug
+|       |   |       \---extractDeepLinksDebug
+|       |   |               navigation.json
+|       |   |               
+|       |   +---navigation_json_for_aar
+|       |   |   \---debug
+|       |   |       \---extractDeepLinksForAarDebug
+|       |   +---nested_resources_validation_report
+|       |   |   \---debug
+|       |   |       \---generateDebugResources
+|       |   |               nestedResourcesValidationReport.txt
+|       |   |               
+|       |   +---packaged_res
+|       |   |   \---debug
+|       |   |       \---packageDebugResources
+|       |   +---public_res
+|       |   |   \---debug
+|       |   |       \---packageDebugResources
+|       |   +---runtime_library_classes_jar
+|       |   |   \---debug
+|       |   |       \---bundleLibRuntimeToJarDebug
+|       |   |               classes.jar
+|       |   |               
+|       |   \---symbol_list_with_package_name
+|       |       \---debug
+|       |           \---generateDebugRFile
+|       |                   package-aware-r.txt
+|       |                   
+|       +---outputs
+|       |   +---aar
+|       |   |       url_launcher_android-debug.aar
+|       |   |       
+|       |   \---logs
+|       |           manifest-merger-debug-report.txt
+|       |           
+|       \---tmp
+|           \---compileDebugJavaWithJavac
+|                   previous-compilation-data.bin
+|                   
++---ios
+|   |   .gitignore
+|   |   
+|   +---Flutter
+|   |   |   AppFrameworkInfo.plist
+|   |   |   Debug.xcconfig
+|   |   |   flutter_export_environment.sh
+|   |   |   Generated.xcconfig
+|   |   |   Release.xcconfig
+|   |   |   
+|   |   \---ephemeral
+|   |           flutter_lldbinit
+|   |           flutter_lldb_helper.py
+|   |           
+|   +---Runner
+|   |   |   AppDelegate.swift
+|   |   |   GeneratedPluginRegistrant.h
+|   |   |   GeneratedPluginRegistrant.m
+|   |   |   Info.plist
+|   |   |   Runner-Bridging-Header.h
+|   |   |   
+|   |   +---Assets.xcassets
+|   |   |   +---AppIcon.appiconset
+|   |   |   |       Contents.json
+|   |   |   |       Icon-App-1024x1024@1x.png
+|   |   |   |       Icon-App-20x20@1x.png
+|   |   |   |       Icon-App-20x20@2x.png
+|   |   |   |       Icon-App-20x20@3x.png
+|   |   |   |       Icon-App-29x29@1x.png
+|   |   |   |       Icon-App-29x29@2x.png
+|   |   |   |       Icon-App-29x29@3x.png
+|   |   |   |       Icon-App-40x40@1x.png
+|   |   |   |       Icon-App-40x40@2x.png
+|   |   |   |       Icon-App-40x40@3x.png
+|   |   |   |       Icon-App-50x50@1x.png
+|   |   |   |       Icon-App-50x50@2x.png
+|   |   |   |       Icon-App-57x57@1x.png
+|   |   |   |       Icon-App-57x57@2x.png
+|   |   |   |       Icon-App-60x60@2x.png
+|   |   |   |       Icon-App-60x60@3x.png
+|   |   |   |       Icon-App-72x72@1x.png
+|   |   |   |       Icon-App-72x72@2x.png
+|   |   |   |       Icon-App-76x76@1x.png
+|   |   |   |       Icon-App-76x76@2x.png
+|   |   |   |       Icon-App-83.5x83.5@2x.png
+|   |   |   |       
+|   |   |   \---LaunchImage.imageset
+|   |   |           Contents.json
+|   |   |           LaunchImage.png
+|   |   |           LaunchImage@2x.png
+|   |   |           LaunchImage@3x.png
+|   |   |           README.md
+|   |   |           
+|   |   \---Base.lproj
+|   |           LaunchScreen.storyboard
+|   |           Main.storyboard
+|   |           
+|   +---Runner.xcodeproj
+|   |   |   project.pbxproj
+|   |   |   
+|   |   +---project.xcworkspace
+|   |   |   |   contents.xcworkspacedata
+|   |   |   |   
+|   |   |   \---xcshareddata
+|   |   |           IDEWorkspaceChecks.plist
+|   |   |           WorkspaceSettings.xcsettings
+|   |   |           
+|   |   \---xcshareddata
+|   |       \---xcschemes
+|   |               Runner.xcscheme
+|   |               
+|   +---Runner.xcworkspace
+|   |   |   contents.xcworkspacedata
+|   |   |   
+|   |   \---xcshareddata
+|   |           IDEWorkspaceChecks.plist
+|   |           WorkspaceSettings.xcsettings
+|   |           
+|   \---RunnerTests
+|           RunnerTests.swift
+|           
++---lib
+|   |   app.dart
+|   |   main.dart
+|   |   
+|   +---core
+|   |   +---constants
+|   |   |       app_assets.dart
+|   |   |       social_list.dart
+|   |   |       
+|   |   +---network
+|   |   +---theme
+|   |   |       app_theme.dart
+|   |   |       
+|   |   \---utils
+|   |           openLink.dart
+|   |           
+|   \---features
+|       \---smart_post
+|           +---controllers
+|           |   |   share_preparation_controller.dart
+|           |   |   smart_post_controller.dart
+|           |   |   
+|           |   \---states
+|           |           share_preparation_state.dart
+|           |           smart_post_state.dart
+|           |           
+|           +---data
+|           |   +---models
+|           |   |       product.dart
+|           |   |       recommended_song.dart
+|           |   |       smart_post.dart
+|           |   |       smart_post_status.dart
+|           |   |       social_platforms.dart
+|           |   |       
+|           |   \---testData
+|           |           smartPostTestData.dart
+|           |           
+|           \---presentation
+|               +---screens
+|               |       edit_caption_screen.dart
+|               |       smart_posts_screen.dart
+|               |       
+|               \---widgets
+|                   |   caption_card.dart
+|                   |   color_container.dart
+|                   |   creator_banner.dart
+|                   |   header_action_btn.dart
+|                   |   post_content_panel.dart
+|                   |   product_card.dart
+|                   |   quick_share_bar.dart
+|                   |   recommended_song_card.dart
+|                   |   sales_link_loading_overlay.dart
+|                   |   smart_post_bottom_navigation.dart
+|                   |   smart_post_header.dart
+|                   |   smart_post_slide.dart
+|                   |   top_navigation_label.dart
+|                   |   vertical_page_indicator.dart
+|                   |   
+|                   +---intro_dialog
+|                   |       generation_dialog.dart
+|                   |       generation_step_status.dart
+|                   |       generation_step_tile.dart
+|                   |       
+|                   \---share_dialog
+|                           animated_progress_bar.dart
+|                           share_loading_card.dart
+|                           share_preparation_overlay.dart
+|                           
++---linux
+|   |   .gitignore
+|   |   CMakeLists.txt
+|   |   
+|   +---flutter
+|   |   |   CMakeLists.txt
+|   |   |   generated_plugins.cmake
+|   |   |   generated_plugin_registrant.cc
+|   |   |   generated_plugin_registrant.h
+|   |   |   
+|   |   \---ephemeral
+|   |       \---.plugin_symlinks
+|   |           \---url_launcher_linux
+|   |               |   AUTHORS
+|   |               |   CHANGELOG.md
+|   |               |   LICENSE
+|   |               |   pubspec.yaml
+|   |               |   README.md
+|   |               |   
+|   |               +---example
+|   |               |   |   pubspec.yaml
+|   |               |   |   README.md
+|   |               |   |   
+|   |               |   +---integration_test
+|   |               |   |       url_launcher_test.dart
+|   |               |   |       
+|   |               |   +---lib
+|   |               |   |       main.dart
+|   |               |   |       
+|   |               |   +---linux
+|   |               |   |   |   CMakeLists.txt
+|   |               |   |   |   main.cc
+|   |               |   |   |   my_application.cc
+|   |               |   |   |   my_application.h
+|   |               |   |   |   
+|   |               |   |   \---flutter
+|   |               |   |           CMakeLists.txt
+|   |               |   |           generated_plugins.cmake
+|   |               |   |           
+|   |               |   \---test_driver
+|   |               |           integration_test.dart
+|   |               |           
+|   |               +---lib
+|   |               |   |   url_launcher_linux.dart
+|   |               |   |   
+|   |               |   \---src
+|   |               |           messages.g.dart
+|   |               |           
+|   |               +---linux
+|   |               |   |   CMakeLists.txt
+|   |               |   |   messages.g.cc
+|   |               |   |   messages.g.h
+|   |               |   |   url_launcher_plugin.cc
+|   |               |   |   url_launcher_plugin_private.h
+|   |               |   |   
+|   |               |   +---include
+|   |               |   |   \---url_launcher_linux
+|   |               |   |           url_launcher_plugin.h
+|   |               |   |           
+|   |               |   \---test
+|   |               |           url_launcher_linux_test.cc
+|   |               |           
+|   |               +---pigeons
+|   |               |       copyright.txt
+|   |               |       messages.dart
+|   |               |       
+|   |               \---test
+|   |                       url_launcher_linux_test.dart
+|   |                       
+|   \---runner
+|           CMakeLists.txt
+|           main.cc
+|           my_application.cc
+|           my_application.h
+|           
++---macos
+|   |   .gitignore
+|   |   
+|   +---Flutter
+|   |   |   Flutter-Debug.xcconfig
+|   |   |   Flutter-Release.xcconfig
+|   |   |   GeneratedPluginRegistrant.swift
+|   |   |   
+|   |   \---ephemeral
+|   |           Flutter-Generated.xcconfig
+|   |           flutter_export_environment.sh
+|   |           
+|   +---Runner
+|   |   |   AppDelegate.swift
+|   |   |   DebugProfile.entitlements
+|   |   |   Info.plist
+|   |   |   MainFlutterWindow.swift
+|   |   |   Release.entitlements
+|   |   |   
+|   |   +---Assets.xcassets
+|   |   |   \---AppIcon.appiconset
+|   |   |           app_icon_1024.png
+|   |   |           app_icon_128.png
+|   |   |           app_icon_16.png
+|   |   |           app_icon_256.png
+|   |   |           app_icon_32.png
+|   |   |           app_icon_512.png
+|   |   |           app_icon_64.png
+|   |   |           Contents.json
+|   |   |           
+|   |   +---Base.lproj
+|   |   |       MainMenu.xib
+|   |   |       
+|   |   \---Configs
+|   |           AppInfo.xcconfig
+|   |           Debug.xcconfig
+|   |           Release.xcconfig
+|   |           Warnings.xcconfig
+|   |           
+|   +---Runner.xcodeproj
+|   |   |   project.pbxproj
+|   |   |   
+|   |   +---project.xcworkspace
+|   |   |   \---xcshareddata
+|   |   |           IDEWorkspaceChecks.plist
+|   |   |           
+|   |   \---xcshareddata
+|   |       \---xcschemes
+|   |               Runner.xcscheme
+|   |               
+|   +---Runner.xcworkspace
+|   |   |   contents.xcworkspacedata
+|   |   |   
+|   |   \---xcshareddata
+|   |           IDEWorkspaceChecks.plist
+|   |           
+|   \---RunnerTests
+|           RunnerTests.swift
+|           
++---test
++---web
+|   |   favicon.png
+|   |   index.html
+|   |   manifest.json
+|   |   
+|   \---icons
+|           Icon-192.png
+|           Icon-512.png
+|           Icon-maskable-192.png
+|           Icon-maskable-512.png
+|           
+\---windows
+    |   .gitignore
+    |   CMakeLists.txt
+    |   
+    +---flutter
+    |   |   CMakeLists.txt
+    |   |   generated_plugins.cmake
+    |   |   generated_plugin_registrant.cc
+    |   |   generated_plugin_registrant.h
+    |   |   
+    |   \---ephemeral
+    |       \---.plugin_symlinks
+    |           \---url_launcher_windows
+    |               |   AUTHORS
+    |               |   CHANGELOG.md
+    |               |   LICENSE
+    |               |   pubspec.yaml
+    |               |   README.md
+    |               |   
+    |               +---example
+    |               |   |   pubspec.yaml
+    |               |   |   README.md
+    |               |   |   
+    |               |   +---integration_test
+    |               |   |       url_launcher_test.dart
+    |               |   |       
+    |               |   +---lib
+    |               |   |       main.dart
+    |               |   |       
+    |               |   +---test_driver
+    |               |   |       integration_test.dart
+    |               |   |       
+    |               |   \---windows
+    |               |       |   CMakeLists.txt
+    |               |       |   
+    |               |       +---flutter
+    |               |       |       CMakeLists.txt
+    |               |       |       generated_plugins.cmake
+    |               |       |       
+    |               |       \---runner
+    |               |           |   CMakeLists.txt
+    |               |           |   flutter_window.cpp
+    |               |           |   flutter_window.h
+    |               |           |   main.cpp
+    |               |           |   resource.h
+    |               |           |   runner.exe.manifest
+    |               |           |   Runner.rc
+    |               |           |   run_loop.cpp
+    |               |           |   run_loop.h
+    |               |           |   utils.cpp
+    |               |           |   utils.h
+    |               |           |   win32_window.cpp
+    |               |           |   win32_window.h
+    |               |           |   
+    |               |           \---resources
+    |               |                   app_icon.ico
+    |               |                   
+    |               +---lib
+    |               |   |   url_launcher_windows.dart
+    |               |   |   
+    |               |   \---src
+    |               |           messages.g.dart
+    |               |           
+    |               +---pigeons
+    |               |       copyright.txt
+    |               |       messages.dart
+    |               |       
+    |               +---test
+    |               |       url_launcher_windows_test.dart
+    |               |       
+    |               \---windows
+    |                   |   CMakeLists.txt
+    |                   |   messages.g.cpp
+    |                   |   messages.g.h
+    |                   |   system_apis.cpp
+    |                   |   system_apis.h
+    |                   |   url_launcher_plugin.cpp
+    |                   |   url_launcher_plugin.h
+    |                   |   url_launcher_windows.cpp
+    |                   |   
+    |                   +---include
+    |                   |   \---url_launcher_windows
+    |                   |           url_launcher_windows.h
+    |                   |           
+    |                   \---test
+    |                           url_launcher_windows_test.cpp
+    |                           
+    \---runner
+        |   CMakeLists.txt
+        |   flutter_window.cpp
+        |   flutter_window.h
+        |   main.cpp
+        |   resource.h
+        |   runner.exe.manifest
+        |   Runner.rc
+        |   utils.cpp
+        |   utils.h
+        |   win32_window.cpp
+        |   win32_window.h
+        |   
+        \---resources
+                app_icon.ico
+                
